@@ -1,0 +1,147 @@
+<!-- Home Page-->
+<!DOCTYPE html>
+<html lang="en>"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Navigation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- adding styling to top nav -->
+<style>
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    background-color: #324539;
+    color: #FFFCF5;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    marign: 0;
+}
+nav ul li {
+    display: inline;
+    /* margin-right: 20px; */
+}
+nav ul li a {
+    color: #FFFCF5;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+/* nav ul li a:hover {
+    background-color: #5B624F;
+} */
+</style>
+<body>
+    <!-- Top Navigation-->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about.html">About</a></li>
+            <li><a href="#casestudy.html">Case Study</a></li>
+            <li><a href="#resume.html">Resume</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Homepage body section with image and description-->
+<body> 
+    <div>
+        <h1 style="text-align: center;">Welcome</h1>
+    
+        <!-- Two Columns Section -->
+            <div class="introduction">
+                <img src="" alt="Picture of Sarah Robbins" style="width: 100%;">
+            <!-- Right Column -->
+            <div>
+                <h2>Who Am I?</h2>
+                <p style="text-align: right;"></p>
+            </div>
+        </div>
+    
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid">
+            <div>
+                <div>
+                    <img src="your_image_1.jpg" alt="Project 1">
+                </div>
+    
+                <h4>Project 1</h4>
+                <p>A B2C Desktop and Mobile Website Redesign</p>
+                <button>View Project</button>
+            </div>
+            <div>
+                <div>
+                    <img src="your_image_2.jpg" alt="Project 2">
+                </div>
+    
+                <h4>Project 2</h4>
+                <p>B2C SaaS Desktop and Mobile website Redeign</p>
+                <button>View Project</button>
+            </div>
+        </div>
+        <h3> View All Projects</h3>
+    </section>
+
+    <section class="mySkills">
+    </div>
+        <h1>A Little Bit About Me</h1>
+        <div class="flexContainer">
+            <div class="skillItem1">
+                <img src="your_icon_1.png" alt="Skill 1 Icon">
+                <h3>User Research</h3>
+                <p>My interest in human behavior drives my passion for research, I am skilled in various research methods 
+                    including heuristic and competitive analysis, card sorting, and visualizing research</p>
+            </div>
+            <div class="skillItem2">
+                <img src="your_icon_2.png" alt="Skill 2 Icon">
+                <h3>UI Design</h3>
+                <p>My designs are backed by research to create impactful experiences for all users. 
+                    I am skilled in rapid prototyping and wireframe sketches
+                </p>
+            </div>
+            <div class="skillItem3">
+                <img src="your_icon_3.png" alt="Skill 3 Icon">
+                <h3>Front-End Development</h3>
+                <p>I use my knowledge of HTML, CSS, and Javascript to bring joyful experiences to life.</p>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- My About section coded using CSS flex --> 
+
+<div class="flexContainer">
+    <div class="skillItem1">
+        <!-- Content for the first skill -->
+    </div>
+    <div class="skillItem2">
+        <!-- Content for the second skill -->
+    </div>
+    <div class="skillItem3">
+        <!-- Content for the third skill -->
+    </div>
+</div>
+</section>
+<footer>
+    <div style="display:inline-block; width: 45%; text-align: left;">
+        <h2>Lets Connect!</h2>
+        <input type="text" placeholder="First">
+        <input type="text" placeholder="Last"><br>
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Text">
+    </div>
+    <div style="display:inline-block; width: 45%; text-align: left;">
+        <button>Submit</button>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

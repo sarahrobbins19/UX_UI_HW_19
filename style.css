@@ -1,0 +1,107 @@
+/* CSS for top navigation */
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #324539;
+    color: #FFFCF5;
+    text-align: center;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #FFFCF5;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+/* nav ul li a:hover {
+    background-color: #5B624F;
+    padding: 20px;
+} */
+
+/* CSS for the flex container */
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.introduction {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; Adjust as needed */
+    /* align-items: flex-start; Adjust as needed */
+}
+
+
+/* CSS for the individual skill items */
+.skillItem1 {
+    width: 30%; /* Each skill item takes up 1/3 of the container */
+    margin: 0 auto; /* Margin for spacing between items */
+    padding: 20px; /* Padding for content inside each item */
+
+}
+/* div {
+    display: flex;
+    flex-direction:column ;
+} */
+.skillItem2 {
+    width: 30%; /* Each skill item takes up 1/3 of the container */
+    margin: 0 auto; /* Margin for spacing between items */
+    padding: 20px; /* Padding for content inside each item */
+}
+/* div {
+    display: flex;
+    flex-direction:column ;
+} */
+.skillItem3 {
+    width: 30%; /* Each skill item takes up 1/3 of the container */
+    margin: 0 auto; /* Margin for spacing between items */
+    padding: 20px; /* Padding for content inside each item */
+}
+/* div {
+    display: flex;
+    flex-direction:column ;
+} */
+/* Existing CSS styles */
+
+.workGrid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+/* Mobile media query */
+@media only screen and (max-width: 600px) {
+    /* Change flex direction to column for mobile */
+    .flexContainer {
+        flex-direction: column;
+    }
+    
+    /* Set flex children to take up 100% of width */
+    .skillItem {
+        width: 100%;
+    }
+}
